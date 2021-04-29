@@ -122,7 +122,6 @@ workdir/
 
 # local file
 tmp.py
-*.txt
 train.sh
 ttt.py
 fff.py
