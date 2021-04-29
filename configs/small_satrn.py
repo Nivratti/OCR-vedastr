@@ -8,8 +8,14 @@ sensitive = True
 character = '0123456789abcdefghijklmnopq' \
             'rstuvwxyzABCDEFGHIJKLMNOPQRS' \
             'TUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'  # need character
-test_sensitive = False
-test_character = '0123456789abcdefghijklmnopqrstuvwxyz'
+
+# test_sensitive = False # default
+test_sensitive = True
+# test_character = '0123456789abcdefghijklmnopqrstuvwxyz' # default
+test_character = '0123456789abcdefghijklmnopq' \
+            'rstuvwxyzABCDEFGHIJKLMNOPQRS' \
+            'TUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+
 batch_max_length = 25
 
 dropout = 0.1
